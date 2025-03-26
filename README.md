@@ -28,7 +28,7 @@ The app is structured with modular React components, dynamic content rendering, 
 
 Check out the live demo of the portfolio by clicking the link below:
 
-[Live Preview](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+[Live Preview](https://momanyi-portfolio.vercel.app/)
 
 If you like this project, consider giving it a ⭐ on
-[GitHub!](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
+[GitHub!](https://github.com/Momanyi-Brian)

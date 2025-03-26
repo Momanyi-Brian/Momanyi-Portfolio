@@ -1,6 +1,11 @@
 import { Albert_Sans } from "next/font/google";
 import "./globals.css";
 
+// Vercel Spped Insights
+import { SpeedInsights } from "@vercel/speed-insights/next"
+// Vercel Analytics
+import { Analytics } from '@vercel/analytics/next';
+
 const albertSans = Albert_Sans({
   subsets: ['latin'],
   variable: '--font-albert-sans',
@@ -33,6 +38,9 @@ export default function RootLayout({ children }) {
         className={`${albertSans.variable} antialiased`}
       >
         {children}
+
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
