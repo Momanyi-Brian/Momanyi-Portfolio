@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Momanyi Brian Portfolio
 
-## Getting Started
+### Overview
 
-First, run the development server:
+Next.js-powered application designed to showcase the developer's work, highlight the benefits of hiring them, outline their project approach, and provide details about their skills and experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The app is structured with modular React components, dynamic content rendering, and state management for an interactive user experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. Showcase of Work: Displays a collection of projects with descriptions and technologies used.
+2. Benefits of Hiring: Highlights key reasons why clients should hire the developer.
+3. Project Approach: Describes the step-by-step workflow for handling development projects.
+4. About the Developer: Provides background information, skills, and experience.
+5. Dynamic Data Rendering: Uses .map() to iterate over and display project details.
+6. State Management: useState manages UI interactions and data states.
+7. Props Handling: Objects are passed between components efficiently.
+8. Conditional Rendering: Utilizes ternary operators to dynamically show or hide sections based on user interaction.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Technologies Used
 
-## Learn More
+1. Next.js - React framework for performance optimization and server-side rendering
+2. React Hooks (useState) - Managing component state effectively
+3. JavaScript ES6+ - Modern JavaScript syntax and best practices
+4. CSS/Styled Components - Custom styling using Tailwind CSS for a polished User Interface
 
-To learn more about Next.js, take a look at the following resources:
+## Live Preview
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Check out the live demo of the portfolio by clicking the link below:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[Live Preview](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, consider giving it a ⭐ on
+[GitHub!](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme)
