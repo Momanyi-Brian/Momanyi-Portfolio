@@ -1,4 +1,6 @@
-import React from 'react'
+'use client'
+
+import React, { useState, useEffect } from 'react'
 
 import { workItems, benefits, services, technologies, processes, faqs } from './lib/portfolioData';
 
@@ -10,7 +12,24 @@ import About from './components/About';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 
+import Preload from './components/Preload';
+
 export default function Home() {
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        // Simulate loading time (replace with your actual loading logic)
+        const timeoutId = setTimeout(() => {
+        setLoading(false);
+        }, 1000); // Adjust the time as needed
+
+        return () => clearTimeout(timeoutId); // Cleanup timeout
+    }, []);
+
+    if (loading) {
+        return <Preload />; // Render Preload if loading is true
+    }
+
     return (
         <>
             {/* Hero Section */}

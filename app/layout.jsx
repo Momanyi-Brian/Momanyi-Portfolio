@@ -14,21 +14,21 @@ const albertSans = Albert_Sans({
 });
 
 export const metadata = {
-  title: "Momanyi Brian Portfolio | Frontend Developer",
-  description: "The combination of my passion for design, code & interaction positions me in a unique place in the web development world.",
-  authors: [{ name: "Momanyi Brian" }],
-  publisher: "Moreashan Agency Kenya",
-  robots: {
-    index: true,
-    follow: true,
-  },
-  metadataBase: new URL('https://momanyi.moreashan.com'),
-  openGraph: {
     title: "Momanyi Brian Portfolio | Frontend Developer",
-    description:
-      "The combination of my passion for design, code & interaction positions me in a unique place in the web development world.",
-    images: ['previewPortfolio.png'],
-  },
+    description: "The combination of my passion for design, code & interaction positions me in a unique place in the web development world.",
+    authors: [{ name: "Momanyi Brian" }],
+    publisher: "Moreashan Agency Kenya",
+    robots: {
+        index: true,
+        follow: true,
+    },
+    metadataBase: new URL('https://momanyi.moreashan.com'),
+    openGraph: {
+        title: "Momanyi Brian Portfolio | Frontend Developer",
+        description:
+        "The combination of my passion for design, code & interaction positions me in a unique place in the web development world.",
+        images: ['previewPortfolio.png'],
+    },
 };
 
 export default function RootLayout({ children }) {
