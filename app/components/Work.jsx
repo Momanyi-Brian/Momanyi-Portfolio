@@ -29,6 +29,7 @@ const Work = ({workItems}) => {
                         <Image
                             src={item.imageUrl}
                             alt={item.altText}
+                            title={item.altText}
                             width={627}
                             height={405}
                             className="h-full object-cover rounded-2xl p-2"
